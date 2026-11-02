@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<!--
+  TestNG suite definition.
+   - The listener below produces the Extent HTML report.
+   - Each <test> block groups one functional area (Users, Products, Posts & Comments).
+   - Blocks run one after another in the order written here.
+-->
+<suite name="Rest Assured Capstone Suite" verbose="1">
+
+    <listeners>
+        <listener class-name="com.perficient.restassured.listeners.TestListener"/>
+    </listeners>
+
+    <!-- Assignment 3: 5 test cases (GET all, GET by id, POST, PUT, DELETE) -->
+    <test name="User API Tests">
+        <classes>
+            <class name="com.perficient.restassured.tests.UserApiTests"/>
+        </classes>
+    </test>
+
+    <!-- Assignment 4: 3 test cases (list, details, search) -->
+    <test name="Product API Tests">
+        <classes>
+            <class name="com.perficient.restassured.tests.ProductApiTests"/>
+        </classes>
+    </test>
+
+    <!-- Post APIs from the "Endpoints" section: create post + comment on post -->
+    <test name="Post and Comment API Tests">
+        <classes>
+            <class name="com.perficient.restassured.tests.PostApiTests"/>
+        </classes>
+    </test>
+</suite>

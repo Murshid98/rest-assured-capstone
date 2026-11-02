@@ -1,0 +1,16 @@
+com\perficient\restassured\utils\TestDataGenerator.class
+com\perficient\restassured\tests\ProductApiTests.class
+com\perficient\restassured\utils\ResponseValidator.class
+com\perficient\restassured\pojo\Comment.class
+com\perficient\restassured\listeners\TestListener.class
+com\perficient\restassured\reports\ExtentLoggingFilter.class
+com\perficient\restassured\pojo\Post.class
+com\perficient\restassured\reports\ExtentTestManager.class
+com\perficient\restassured\utils\ApiClient.class
+com\perficient\restassured\tests\UserApiTests.class
+com\perficient\restassured\utils\Endpoints.class
+com\perficient\restassured\pojo\User.class
+com\perficient\restassured\reports\ExtentManager.class
+com\perficient\restassured\config\ConfigManager.class
+com\perficient\restassured\tests\PostApiTests.class
+com\perficient\restassured\base\BaseTest.class

@@ -2,68 +2,68 @@
 <testng-results ignored="0" total="10" passed="10" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-11-02T18:52:15 IST" name="Rest Assured Capstone Suite" finished-at="2026-11-02T18:52:22 IST" duration-ms="6974">
+  <suite started-at="2026-11-03T13:21:05 IST" name="Rest Assured Capstone Suite" finished-at="2026-11-03T13:21:26 IST" duration-ms="21244">
     <groups>
     </groups>
-    <test started-at="2026-11-02T18:52:15 IST" name="User API Tests" finished-at="2026-11-02T18:52:21 IST" duration-ms="5260">
+    <test started-at="2026-11-03T13:21:05 IST" name="User API Tests" finished-at="2026-11-03T13:21:24 IST" duration-ms="18921">
       <class name="com.perficient.restassured.tests.UserApiTests">
-        <test-method signature="testGetAllUsers()[pri:1, instance:com.perficient.restassured.tests.UserApiTests@10e41621]" started-at="2026-11-02T18:52:16 IST" name="testGetAllUsers" description="GET /users - returns a non-empty list of users" finished-at="2026-11-02T18:52:20 IST" duration-ms="3900" status="PASS">
+        <test-method signature="testGetAllUsers()[pri:1, instance:com.perficient.restassured.tests.UserApiTests@10e41621]" started-at="2026-11-03T13:21:06 IST" name="testGetAllUsers" description="GET /users - returns a non-empty list of users" finished-at="2026-11-03T13:21:21 IST" duration-ms="15095" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testGetAllUsers -->
-        <test-method signature="testGetUserById()[pri:2, instance:com.perficient.restassured.tests.UserApiTests@10e41621]" started-at="2026-11-02T18:52:20 IST" name="testGetUserById" description="GET /users/{id} - returns the details of a single user" finished-at="2026-11-02T18:52:20 IST" depends-on-methods="com.perficient.restassured.tests.UserApiTests.testGetAllUsers" duration-ms="423" status="PASS">
+        <test-method signature="testGetUserById()[pri:2, instance:com.perficient.restassured.tests.UserApiTests@10e41621]" started-at="2026-11-03T13:21:21 IST" name="testGetUserById" description="GET /users/{id} - returns the details of a single user" finished-at="2026-11-03T13:21:23 IST" depends-on-methods="com.perficient.restassured.tests.UserApiTests.testGetAllUsers" duration-ms="2322" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testGetUserById -->
-        <test-method signature="testCreateUser()[pri:3, instance:com.perficient.restassured.tests.UserApiTests@10e41621]" started-at="2026-11-02T18:52:20 IST" name="testCreateUser" description="POST /users - creates a new user" finished-at="2026-11-02T18:52:20 IST" duration-ms="182" status="PASS">
+        <test-method signature="testCreateUser()[pri:3, instance:com.perficient.restassured.tests.UserApiTests@10e41621]" started-at="2026-11-03T13:21:23 IST" name="testCreateUser" description="POST /users - creates a new user" finished-at="2026-11-03T13:21:24 IST" duration-ms="242" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testCreateUser -->
-        <test-method signature="testUpdateUser()[pri:4, instance:com.perficient.restassured.tests.UserApiTests@10e41621]" started-at="2026-11-02T18:52:20 IST" name="testUpdateUser" description="PUT /users/{id} - updates the user created earlier" finished-at="2026-11-02T18:52:20 IST" depends-on-methods="com.perficient.restassured.tests.UserApiTests.testCreateUser" duration-ms="153" status="PASS">
+        <test-method signature="testUpdateUser()[pri:4, instance:com.perficient.restassured.tests.UserApiTests@10e41621]" started-at="2026-11-03T13:21:24 IST" name="testUpdateUser" description="PUT /users/{id} - updates the user created earlier" finished-at="2026-11-03T13:21:24 IST" depends-on-methods="com.perficient.restassured.tests.UserApiTests.testCreateUser" duration-ms="149" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testUpdateUser -->
-        <test-method signature="testDeleteUser()[pri:5, instance:com.perficient.restassured.tests.UserApiTests@10e41621]" started-at="2026-11-02T18:52:20 IST" name="testDeleteUser" description="DELETE /users/{id} - deletes the user and confirms it is gone" finished-at="2026-11-02T18:52:21 IST" depends-on-methods="com.perficient.restassured.tests.UserApiTests.testUpdateUser" duration-ms="289" status="PASS">
+        <test-method signature="testDeleteUser()[pri:5, instance:com.perficient.restassured.tests.UserApiTests@10e41621]" started-at="2026-11-03T13:21:24 IST" name="testDeleteUser" description="DELETE /users/{id} - deletes the user and confirms it is gone" finished-at="2026-11-03T13:21:24 IST" depends-on-methods="com.perficient.restassured.tests.UserApiTests.testUpdateUser" duration-ms="270" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testDeleteUser -->
       </class> <!-- com.perficient.restassured.tests.UserApiTests -->
     </test> <!-- User API Tests -->
-    <test started-at="2026-11-02T18:52:21 IST" name="Product API Tests" finished-at="2026-11-02T18:52:22 IST" duration-ms="558">
+    <test started-at="2026-11-03T13:21:25 IST" name="Product API Tests" finished-at="2026-11-03T13:21:25 IST" duration-ms="790">
       <class name="com.perficient.restassured.tests.ProductApiTests">
-        <test-method signature="testGetProductList()[pri:1, instance:com.perficient.restassured.tests.ProductApiTests@1d9b7cce]" started-at="2026-11-02T18:52:21 IST" name="testGetProductList" description="GET /posts - returns the product (post) list" finished-at="2026-11-02T18:52:21 IST" duration-ms="213" status="PASS">
+        <test-method signature="testGetProductList()[pri:1, instance:com.perficient.restassured.tests.ProductApiTests@1d9b7cce]" started-at="2026-11-03T13:21:25 IST" name="testGetProductList" description="GET /posts - returns the product (post) list" finished-at="2026-11-03T13:21:25 IST" duration-ms="339" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testGetProductList -->
-        <test-method signature="testGetProductDetails()[pri:2, instance:com.perficient.restassured.tests.ProductApiTests@1d9b7cce]" started-at="2026-11-02T18:52:21 IST" name="testGetProductDetails" description="GET /posts/{id} - returns the details of one product" finished-at="2026-11-02T18:52:21 IST" depends-on-methods="com.perficient.restassured.tests.ProductApiTests.testGetProductList" duration-ms="136" status="PASS">
+        <test-method signature="testGetProductDetails()[pri:2, instance:com.perficient.restassured.tests.ProductApiTests@1d9b7cce]" started-at="2026-11-03T13:21:25 IST" name="testGetProductDetails" description="GET /posts/{id} - returns the details of one product" finished-at="2026-11-03T13:21:25 IST" depends-on-methods="com.perficient.restassured.tests.ProductApiTests.testGetProductList" duration-ms="176" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testGetProductDetails -->
-        <test-method signature="testSearchProduct()[pri:3, instance:com.perficient.restassured.tests.ProductApiTests@1d9b7cce]" started-at="2026-11-02T18:52:21 IST" name="testSearchProduct" description="GET /posts?title=&lt;name&gt; - searches products by name" finished-at="2026-11-02T18:52:22 IST" depends-on-methods="com.perficient.restassured.tests.ProductApiTests.testGetProductList" duration-ms="201" status="PASS">
+        <test-method signature="testSearchProduct()[pri:3, instance:com.perficient.restassured.tests.ProductApiTests@1d9b7cce]" started-at="2026-11-03T13:21:25 IST" name="testSearchProduct" description="GET /posts?title=&lt;name&gt; - searches products by name" finished-at="2026-11-03T13:21:25 IST" depends-on-methods="com.perficient.restassured.tests.ProductApiTests.testGetProductList" duration-ms="267" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testSearchProduct -->
       </class> <!-- com.perficient.restassured.tests.ProductApiTests -->
     </test> <!-- Product API Tests -->
-    <test started-at="2026-11-02T18:52:22 IST" name="Post and Comment API Tests" finished-at="2026-11-02T18:52:22 IST" duration-ms="699">
+    <test started-at="2026-11-03T13:21:25 IST" name="Post and Comment API Tests" finished-at="2026-11-03T13:21:26 IST" duration-ms="916">
       <class name="com.perficient.restassured.tests.PostApiTests">
-        <test-method is-config="true" signature="suiteSetup()[pri:0, instance:com.perficient.restassured.tests.PostApiTests@5fdcaa40]" started-at="2026-11-02T18:52:15 IST" name="suiteSetup" finished-at="2026-11-02T18:52:15 IST" duration-ms="16" status="PASS">
+        <test-method is-config="true" signature="suiteSetup()[pri:0, instance:com.perficient.restassured.tests.PostApiTests@5fdcaa40]" started-at="2026-11-03T13:21:05 IST" name="suiteSetup" finished-at="2026-11-03T13:21:05 IST" duration-ms="42" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- suiteSetup -->
-        <test-method is-config="true" signature="createUserForPosts()[pri:0, instance:com.perficient.restassured.tests.PostApiTests@5fdcaa40]" started-at="2026-11-02T18:52:22 IST" name="createUserForPosts" finished-at="2026-11-02T18:52:22 IST" duration-ms="145" status="PASS">
+        <test-method is-config="true" signature="createUserForPosts()[pri:0, instance:com.perficient.restassured.tests.PostApiTests@5fdcaa40]" started-at="2026-11-03T13:21:25 IST" name="createUserForPosts" finished-at="2026-11-03T13:21:26 IST" duration-ms="172" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createUserForPosts -->
-        <test-method signature="testCreatePostForUser()[pri:1, instance:com.perficient.restassured.tests.PostApiTests@5fdcaa40]" started-at="2026-11-02T18:52:22 IST" name="testCreatePostForUser" description="POST /users/{id}/posts - creates a post for a user" finished-at="2026-11-02T18:52:22 IST" duration-ms="128" status="PASS">
+        <test-method signature="testCreatePostForUser()[pri:1, instance:com.perficient.restassured.tests.PostApiTests@5fdcaa40]" started-at="2026-11-03T13:21:26 IST" name="testCreatePostForUser" description="POST /users/{id}/posts - creates a post for a user" finished-at="2026-11-03T13:21:26 IST" duration-ms="185" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testCreatePostForUser -->
-        <test-method signature="testCommentOnPost()[pri:2, instance:com.perficient.restassured.tests.PostApiTests@5fdcaa40]" started-at="2026-11-02T18:52:22 IST" name="testCommentOnPost" description="POST/GET /posts/{id}/comments - adds a comment and reads it back" finished-at="2026-11-02T18:52:22 IST" depends-on-methods="com.perficient.restassured.tests.PostApiTests.testCreatePostForUser" duration-ms="303" status="PASS">
+        <test-method signature="testCommentOnPost()[pri:2, instance:com.perficient.restassured.tests.PostApiTests@5fdcaa40]" started-at="2026-11-03T13:21:26 IST" name="testCommentOnPost" description="POST/GET /posts/{id}/comments - adds a comment and reads it back" finished-at="2026-11-03T13:21:26 IST" depends-on-methods="com.perficient.restassured.tests.PostApiTests.testCreatePostForUser" duration-ms="383" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testCommentOnPost -->
-        <test-method is-config="true" signature="deleteTemporaryUser()[pri:0, instance:com.perficient.restassured.tests.PostApiTests@5fdcaa40]" started-at="2026-11-02T18:52:22 IST" name="deleteTemporaryUser" finished-at="2026-11-02T18:52:22 IST" duration-ms="116" status="PASS">
+        <test-method is-config="true" signature="deleteTemporaryUser()[pri:0, instance:com.perficient.restassured.tests.PostApiTests@5fdcaa40]" started-at="2026-11-03T13:21:26 IST" name="deleteTemporaryUser" finished-at="2026-11-03T13:21:26 IST" duration-ms="167" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- deleteTemporaryUser -->
